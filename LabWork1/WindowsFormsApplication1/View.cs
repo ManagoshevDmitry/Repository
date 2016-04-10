@@ -63,7 +63,7 @@ namespace WindowsFormsApplication1
             public static List<ICatalogue> list = new List<ICatalogue>();
         }
 
-        private void новыйФайлToolStripMenuItem_Click(object sender, EventArgs e)
+        private void newFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Все не сохраннёные данные могут быть потеряны. Создать новый файл?", "New", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             try
@@ -80,7 +80,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void buttonDelete_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Удалить обьект?", "Удалить", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
@@ -92,7 +92,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void открытьФайлToolStripMenuItem_Click(object sender, EventArgs e)
+        private void openFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var serializer = new Newtonsoft.Json.JsonSerializer();
             serializer.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
@@ -124,7 +124,7 @@ namespace WindowsFormsApplication1
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonAdd_Click(object sender, EventArgs e)
         {
             ModelView c = new ModelView();
             ICatalogue catalog = null;
@@ -145,7 +145,7 @@ namespace WindowsFormsApplication1
 
         public ICatalogue Catalog { get; set; }
         private int _catalog;
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonFill_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
 
@@ -181,7 +181,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var serializer = new Newtonsoft.Json.JsonSerializer();
             serializer.NullValueHandling = NullValueHandling.Ignore;
@@ -203,7 +203,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Закрыть программу?", "Завершение", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes) Application.Exit();

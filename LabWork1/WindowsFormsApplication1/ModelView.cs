@@ -26,7 +26,7 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void radioButtonStandard_CheckedChanged(object sender, EventArgs e)
         {
             textBox1.Visible = true;
             textBox2.Visible = true;
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        private void radioButtonElectronicResource_CheckedChanged(object sender, EventArgs e)
         {
             textBox1.Visible = false;
             textBox2.Visible = false;
@@ -87,7 +87,7 @@ namespace WindowsFormsApplication1
             _catalogue = 1;
         }
 
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        private void radioButtonDissertation_CheckedChanged(object sender, EventArgs e)
         {
             textBox1.Visible = false;
             textBox2.Visible = false;
@@ -115,7 +115,7 @@ namespace WindowsFormsApplication1
             _catalogue = 2;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonGateDescription_Click(object sender, EventArgs e)
         {
             Model.ICatalogue catalogModel = null;
             switch (_catalogue)
@@ -135,7 +135,7 @@ namespace WindowsFormsApplication1
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
             this.Close();

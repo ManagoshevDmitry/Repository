@@ -62,7 +62,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Добавить издание";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // button2
             // 
@@ -73,7 +73,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Заполнить таблицу";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.buttonFill_Click);
             // 
             // button3
             // 
@@ -84,7 +84,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Удалить";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // menuStrip1
             // 
@@ -105,35 +105,35 @@
             this.закрытьToolStripMenuItem});
             this.опцииToolStripMenuItem.Name = "опцииToolStripMenuItem";
             this.опцииToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.опцииToolStripMenuItem.Text = "опции";
+            this.опцииToolStripMenuItem.Text = "option";
             // 
             // новыйФайлToolStripMenuItem
             // 
             this.новыйФайлToolStripMenuItem.Name = "новыйФайлToolStripMenuItem";
-            this.новыйФайлToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.новыйФайлToolStripMenuItem.Text = "Новый файл";
-            this.новыйФайлToolStripMenuItem.Click += new System.EventHandler(this.новыйФайлToolStripMenuItem_Click);
+            this.новыйФайлToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.новыйФайлToolStripMenuItem.Text = "New File";
+            this.новыйФайлToolStripMenuItem.Click += new System.EventHandler(this.newFileToolStripMenuItem_Click);
             // 
             // открытьФайлToolStripMenuItem
             // 
             this.открытьФайлToolStripMenuItem.Name = "открытьФайлToolStripMenuItem";
-            this.открытьФайлToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.открытьФайлToolStripMenuItem.Text = "Открыть файл";
-            this.открытьФайлToolStripMenuItem.Click += new System.EventHandler(this.открытьФайлToolStripMenuItem_Click);
+            this.открытьФайлToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.открытьФайлToolStripMenuItem.Text = "Open File";
+            this.открытьФайлToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.сохранитьToolStripMenuItem.Text = "Сохранить";
-            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сохранитьToolStripMenuItem.Text = "Save";
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // закрытьToolStripMenuItem
             // 
             this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
-            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.закрытьToolStripMenuItem.Text = "Закрыть";
-            this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.закрытьToolStripMenuItem_Click);
+            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.закрытьToolStripMenuItem.Text = "Close";
+            this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // Form1
             // 
