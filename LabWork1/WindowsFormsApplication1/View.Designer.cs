@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class CatalogView
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -104,38 +104,38 @@
             this.сохранитьToolStripMenuItem,
             this.закрытьToolStripMenuItem});
             this.опцииToolStripMenuItem.Name = "опцииToolStripMenuItem";
-            this.опцииToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.опцииToolStripMenuItem.Text = "option";
+            this.опцииToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.опцииToolStripMenuItem.Text = "Option";
             // 
             // новыйФайлToolStripMenuItem
             // 
             this.новыйФайлToolStripMenuItem.Name = "новыйФайлToolStripMenuItem";
-            this.новыйФайлToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.новыйФайлToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.новыйФайлToolStripMenuItem.Text = "New File";
             this.новыйФайлToolStripMenuItem.Click += new System.EventHandler(this.newFileToolStripMenuItem_Click);
             // 
             // открытьФайлToolStripMenuItem
             // 
             this.открытьФайлToolStripMenuItem.Name = "открытьФайлToolStripMenuItem";
-            this.открытьФайлToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.открытьФайлToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.открытьФайлToolStripMenuItem.Text = "Open File";
             this.открытьФайлToolStripMenuItem.Click += new System.EventHandler(this.openFileToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.сохранитьToolStripMenuItem.Text = "Save";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // закрытьToolStripMenuItem
             // 
             this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
-            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.закрытьToolStripMenuItem.Text = "Close";
             this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
-            // Form1
+            // CatalogView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,8 +146,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CatalogView";
+            this.Text = "CatalogView";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

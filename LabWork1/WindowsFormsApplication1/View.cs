@@ -13,11 +13,11 @@ using Newtonsoft.Json;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class CatalogView : Form
     {
         private DataTable _datatable;
 
-        public Form1()
+        public CatalogView()
         {
             InitializeComponent();
             CreateDatatable();
