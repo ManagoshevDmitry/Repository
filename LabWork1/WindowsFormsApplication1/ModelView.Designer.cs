@@ -108,7 +108,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Отмена";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // button1
             // 
@@ -118,7 +118,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Получить описание";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.buttonGateDescription_Click);
             // 
             // groupBox3
             // 
@@ -542,7 +542,7 @@
             this.radioButton3.TabIndex = 2;
             this.radioButton3.Text = "Диссертация";
             this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButtonDissertation_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -553,7 +553,7 @@
             this.radioButton2.TabIndex = 1;
             this.radioButton2.Text = "Электронный ресурс";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButtonElectronicResource_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -564,7 +564,7 @@
             this.radioButton1.TabIndex = 0;
             this.radioButton1.Text = "ГОСТ";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButtonStandard_CheckedChanged);
             // 
             // textBox5
             // 

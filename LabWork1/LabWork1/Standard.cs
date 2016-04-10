@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// Класс ГОСТ
+    /// </summary>
     public class Standard : ICatalogue
     {
         public string Name
