@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// Класс диссертация
+    /// </summary>
     public class Dissertation: ICatalogue
-    {
+    {   
         public string Name
         {
             get

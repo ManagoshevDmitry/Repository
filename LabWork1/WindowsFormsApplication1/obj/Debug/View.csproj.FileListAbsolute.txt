@@ -12,3 +12,6 @@ C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\WindowsFo
 C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ModelView.resources
+C:\Users\Дмитрий\Documents\Repository\LabWork1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Дмитрий\Documents\Repository\LabWork1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Дмитрий\Documents\Repository\LabWork1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
