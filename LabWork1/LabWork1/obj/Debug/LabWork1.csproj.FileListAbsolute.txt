@@ -1,0 +1,12 @@
+c:\users\дмитрий\documents\visual studio 2015\Projects\LabWork1\LabWork1\bin\Debug\LabWork1.pdb
+c:\users\дмитрий\documents\visual studio 2015\Projects\LabWork1\LabWork1\obj\Debug\LabWork1.csprojResolveAssemblyReference.cache
+c:\users\дмитрий\documents\visual studio 2015\Projects\LabWork1\LabWork1\obj\Debug\LabWork1.pdb
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\LabWork1\bin\Debug\LabWork1.dll.config
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\LabWork1\bin\Debug\LabWork1.dll
+C:\Users\Дмитрий\Documents\Visual Studio 2015\Projects\LabWork1\LabWork1\obj\Debug\LabWork1.dll
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.dll.config
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.dll
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\bin\Debug\LabWork1.pdb
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.dll
+C:\Users\Дмитрий\Downloads\LabWork1\LabWork1\LabWork1\LabWork1\obj\Debug\LabWork1.pdb
